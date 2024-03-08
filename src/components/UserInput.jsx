@@ -1,10 +1,4 @@
-import { useState } from "react";
-
-
-
-export default function UserInput({userInput, onHandleChange}) {
-  
-
+export default function UserInput({ userInput, onHandleChange }) {
   return (
     <section id="user-input">
       <div className="input-group">
